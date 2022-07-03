@@ -1,4 +1,4 @@
-const address = "0x237f0A6c126F979cEd363079f7Cc0bB848e1802B";
+const address = "0xf101B1ECf771783Fe03217ed72736f8Bc5BBb112";
 const infuraId = "6d233bb428724900aa1d6ac6bba531b1"     // Infuria ID | https://infura.io/ | For Wallet Connect
 const moralisApi = "8lLcZsKmH7Scwxzqp7O3REOhP8nGAMh9CjJTjKwVMQzYJ16fKNs9rClIsQOq0kyx"    // x-api-key | https://moralis.io/ | For NFTs
 
