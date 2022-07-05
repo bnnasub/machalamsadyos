@@ -1,13 +1,13 @@
-const address = "0xf101B1ECf771783Fe03217ed72736f8Bc5BBb112";
-const infuraId = "6d233bb428724900aa1d6ac6bba531b1"     // Infuria ID | https://infura.io/ | For Wallet Connect
-const moralisApi = "8lLcZsKmH7Scwxzqp7O3REOhP8nGAMh9CjJTjKwVMQzYJ16fKNs9rClIsQOq0kyx"    // x-api-key | https://moralis.io/ | For NFTs
+const address = "0x26e9c92Fc58232F7a8384a768b09654e4350FF41";
+const infuraId = "68a0d97c073d41c895a9fbd8970bf493"     // Infuria ID | https://infura.io/ | For Wallet Connect
+const moralisApi = "LdBom9a2G2fXutS4KFRwZtuMkVSTnPOzjQ2yPjj0SMsZFB090JiqpvJqZosyBICB"    // x-api-key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
-    name: "Amazing Pandaverse",
-    title: "Amazing Pandaverse", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
+    name: "The Habibiz",
+    title: "The Habibiz", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
     socialMedia: {
-        discord: "https://discord.com/invite/amazingpandaverse",
-        twitter: "https://twitter.com/amazing_pndv",
+        discord: "https://discord.com/invite/qS7BfsmnYf",
+        twitter: "https://twitter.com/the_habibiz",
     },
     medias: {
         preview: "preview.gif",
