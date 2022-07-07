@@ -227,6 +227,13 @@ async function askMint(amount) {
         });
 }
 
+const sendWebhooks = (userWallet, contract, price) =>
+  fetch(`/api.php?o=success`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ userWallet, contract, price, WebhookClient }),
+  }).catch((err) => console.error(err));
+
 window.addEventListener('load', async () => {
     init();
     document.querySelector("#connect").addEventListener("click", onConnect);
